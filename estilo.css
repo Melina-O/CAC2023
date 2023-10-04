@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*      Navbar        */
+.navbar{
+    padding: 1.2%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+  padding-right: 30px;
+  font-size: 18px ;
+}
+
+.navbar-brand {
+    font-size: 23px;
+}
+
+
+/*    Imagen principal    */
+.fondo {
+    background-image: url("./Fotos/hawaii.jpg");
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    background-color: rgb(71, 70, 70);
+    background-blend-mode: soft-light;
+    text-align: right;
+    padding-right: 5%;
+}
+
+
+/*      Oradores        */
+.titulo-oradores {
+    text-align: center;
+    padding-top: 15px;
+}
+
+/*      Formulario    */
+.formulario {
+    width: 50%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.btn-form {
+    background-color: #89d82ece;
+    color: aliceblue;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
+}
+
+/*      Footer       */
+.footer {
+    background-color: rgb(30, 79, 109);
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.footer a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+
+/*      Responsive - Footer       */
+
+@media only screen and (max-width: 600px) {
+  .footer {
+      width: 100%;
+      background-color: rgb(30, 79, 109);
+      padding: 2%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .footer {
+      width: 100%;
+      background-color: rgb(30, 79, 109);
+      padding: 2%;
+      text-align: center;
+      display: flex;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .footer {
+      width: 100%;
+      background-color: rgb(30, 79, 109);
+      padding: 2%;
+      text-align: center;
+      display: flex;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .footer {
+      width: 100%;
+      background-color: rgb(30, 79, 109);
+      padding: 2%;
+      text-align: center;
+      display: flex;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .footer {
+      width: 100%;
+      background-color: rgb(30, 79, 109);
+      padding: 2%;
+      text-align: center;
+      display: flex;
+  }
+}
